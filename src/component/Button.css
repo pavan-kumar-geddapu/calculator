@@ -1,0 +1,29 @@
+.button-container {
+    display: inline-flex;
+    flex: 1 0 auto;
+    z-index: 1;
+}
+
+.button-container button{
+    padding: 0;
+    font-size: 1.5em;
+    flex: 1 0 auto;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button {
+    border: 0;
+    z-index: 2;
+    outline: none;
+}
+
+.button:hover {
+    box-shadow: 1px 1px 4px 1px gray inset;
+    font-weight: bolder;
+}
+
+.button:focus {
+    outline: 0;
+    border: 0;
+}

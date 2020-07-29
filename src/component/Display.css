@@ -1,0 +1,11 @@
+.output-container {
+    background-color: black;
+    color: white;
+    text-align: right;
+    justify-content: center;
+}
+
+.output-container > div {
+    font-size: 2.5rem;
+    padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+}

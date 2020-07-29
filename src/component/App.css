@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-component {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  min-height: 500px;
+  box-shadow: 10px 15px 30px 5px gray;
+}
+
+@media screen and (max-width: 500px) {
+  .app-component {
+    display: flex;
+    width: 100%;
+  }
+}
+
+@media screen and (max-height: 650px) {
+  .app-component {
+    display: flex;
+    height: 100vh;
+  }
+}
